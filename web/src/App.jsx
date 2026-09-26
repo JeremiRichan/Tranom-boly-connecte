@@ -8,7 +8,7 @@ import EspacesPage from './pages/EspacesPage';
 import VentePage from './pages/VentePage';
 import MeteoPage from './pages/MeteoPage';
 import HelpPage from './pages/HelpPage';
-import ContactPage from './pages/ContactPage';
+import ContactPage from './pages/ContactPages';
 
 function AppShell() {
     const location = useLocation();
@@ -32,7 +32,7 @@ function AppShell() {
 
 function App() {
     return (
-        <Router>
+        <Router basename="/Tranom-boly-connecte">
             <ScrollToTop />
             <AppShell />
         </Router>
